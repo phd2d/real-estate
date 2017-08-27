@@ -56,9 +56,11 @@ typings/
 
 # dotenv environment variables file
 .env
+
 # Ignore Every Thing
 /*
 # Ignore the wp-content directory
-wp-content/*
-!wp-content/plugins/
-!wp-content/themes/
+!/wp-content/
+
+!/wp-content/plugins/*
+!/wp-content/themes/*
